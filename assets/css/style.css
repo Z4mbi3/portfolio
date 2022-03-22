@@ -1,1 +1,86 @@
 /* INIT */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+/* terminal */
+
+body {
+    user-select: none;
+    background-image: url("../media/mock.jpg");
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+strong {
+    color: #FAC437;
+}
+
+.whitebg {
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    height: 1000px;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.terminal {
+    width: 60rem;
+    height: 30rem;
+    padding: .4rem .4rem;
+    resize: both;
+}
+
+.terminal-header {
+    padding: .2rem .2rem;
+    background-color: #2C2C2C;
+    width: 100%;
+}
+
+.close, .fullscreen, .minimize {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.close {
+    background-color: #F25157;
+}
+
+.fullscreen {
+    background-color: #39EB48;
+}
+
+.minimize {
+    background-color: #FAC437;
+}
+
+.terminal-body {
+    padding: .2rem .2rem;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #05d901;
+    overflow-y: auto;
+}
+
+.terminal-info span {
+    color: #FAC437;
+}
+
+.terminal-input input {
+    background: 0;
+    border: 0;
+    text-decoration: 0;
+    outline: none;
+    color: #05d901;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+}
